@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D4CE5412B70009B002BC695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE5402B70009B002BC695 /* AppDelegate.swift */; };
+		1D4CE5432B70009B002BC695 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE5422B70009B002BC695 /* SceneDelegate.swift */; };
+		1D4CE5452B70009B002BC695 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE5442B70009B002BC695 /* ViewController.swift */; };
+		1D4CE5482B70009B002BC695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CE5462B70009B002BC695 /* Main.storyboard */; };
+		1D4CE54A2B70009C002BC695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CE5492B70009C002BC695 /* Assets.xcassets */; };
+		1D4CE54D2B70009C002BC695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4CE54B2B70009C002BC695 /* LaunchScreen.storyboard */; };
+		1D4CE5582B70009C002BC695 /* Datta_CalculatorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE5572B70009C002BC695 /* Datta_CalculatorAppTests.swift */; };
+		1D4CE5622B70009C002BC695 /* Datta_CalculatorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE5612B70009C002BC695 /* Datta_CalculatorAppUITests.swift */; };
+		1D4CE5642B70009C002BC695 /* Datta_CalculatorAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CE5632B70009C002BC695 /* Datta_CalculatorAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D4CE5542B70009C002BC695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D4CE5352B70009B002BC695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D4CE53C2B70009B002BC695;
+			remoteInfo = Datta_CalculatorApp;
+		};
+		1D4CE55E2B70009C002BC695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D4CE5352B70009B002BC695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D4CE53C2B70009B002BC695;
+			remoteInfo = Datta_CalculatorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D4CE53D2B70009B002BC695 /* Datta_CalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Datta_CalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D4CE5402B70009B002BC695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D4CE5422B70009B002BC695 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1D4CE5442B70009B002BC695 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D4CE5472B70009B002BC695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D4CE5492B70009C002BC695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D4CE54C2B70009C002BC695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D4CE54E2B70009C002BC695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D4CE5532B70009C002BC695 /* Datta_CalculatorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Datta_CalculatorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D4CE5572B70009C002BC695 /* Datta_CalculatorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datta_CalculatorAppTests.swift; sourceTree = "<group>"; };
+		1D4CE55D2B70009C002BC695 /* Datta_CalculatorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Datta_CalculatorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D4CE5612B70009C002BC695 /* Datta_CalculatorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datta_CalculatorAppUITests.swift; sourceTree = "<group>"; };
+		1D4CE5632B70009C002BC695 /* Datta_CalculatorAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datta_CalculatorAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D4CE53A2B70009B002BC695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D4CE5502B70009C002BC695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D4CE55A2B70009C002BC695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D4CE5342B70009B002BC695 = {
+			isa = PBXGroup;
+			children = (
+				1D4CE53F2B70009B002BC695 /* Datta_CalculatorApp */,
+				1D4CE5562B70009C002BC695 /* Datta_CalculatorAppTests */,
+				1D4CE5602B70009C002BC695 /* Datta_CalculatorAppUITests */,
+				1D4CE53E2B70009B002BC695 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D4CE53E2B70009B002BC695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D4CE53D2B70009B002BC695 /* Datta_CalculatorApp.app */,
+				1D4CE5532B70009C002BC695 /* Datta_CalculatorAppTests.xctest */,
+				1D4CE55D2B70009C002BC695 /* Datta_CalculatorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D4CE53F2B70009B002BC695 /* Datta_CalculatorApp */ = {
+			isa = PBXGroup;
+			children = (
+				1D4CE5402B70009B002BC695 /* AppDelegate.swift */,
+				1D4CE5422B70009B002BC695 /* SceneDelegate.swift */,
+				1D4CE5442B70009B002BC695 /* ViewController.swift */,
+				1D4CE5462B70009B002BC695 /* Main.storyboard */,
+				1D4CE5492B70009C002BC695 /* Assets.xcassets */,
+				1D4CE54B2B70009C002BC695 /* LaunchScreen.storyboard */,
+				1D4CE54E2B70009C002BC695 /* Info.plist */,
+			);
+			path = Datta_CalculatorApp;
+			sourceTree = "<group>";
+		};
+		1D4CE5562B70009C002BC695 /* Datta_CalculatorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D4CE5572B70009C002BC695 /* Datta_CalculatorAppTests.swift */,
+			);
+			path = Datta_CalculatorAppTests;
+			sourceTree = "<group>";
+		};
+		1D4CE5602B70009C002BC695 /* Datta_CalculatorAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D4CE5612B70009C002BC695 /* Datta_CalculatorAppUITests.swift */,
+				1D4CE5632B70009C002BC695 /* Datta_CalculatorAppUITestsLaunchTests.swift */,
+			);
+			path = Datta_CalculatorAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D4CE53C2B70009B002BC695 /* Datta_CalculatorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D4CE5672B70009C002BC695 /* Build configuration list for PBXNativeTarget "Datta_CalculatorApp" */;
+			buildPhases = (
+				1D4CE5392B70009B002BC695 /* Sources */,
+				1D4CE53A2B70009B002BC695 /* Frameworks */,
+				1D4CE53B2B70009B002BC695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Datta_CalculatorApp;
+			productName = Datta_CalculatorApp;
+			productReference = 1D4CE53D2B70009B002BC695 /* Datta_CalculatorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D4CE5522B70009C002BC695 /* Datta_CalculatorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D4CE56A2B70009C002BC695 /* Build configuration list for PBXNativeTarget "Datta_CalculatorAppTests" */;
+			buildPhases = (
+				1D4CE54F2B70009C002BC695 /* Sources */,
+				1D4CE5502B70009C002BC695 /* Frameworks */,
+				1D4CE5512B70009C002BC695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D4CE5552B70009C002BC695 /* PBXTargetDependency */,
+			);
+			name = Datta_CalculatorAppTests;
+			productName = Datta_CalculatorAppTests;
+			productReference = 1D4CE5532B70009C002BC695 /* Datta_CalculatorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D4CE55C2B70009C002BC695 /* Datta_CalculatorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D4CE56D2B70009C002BC695 /* Build configuration list for PBXNativeTarget "Datta_CalculatorAppUITests" */;
+			buildPhases = (
+				1D4CE5592B70009C002BC695 /* Sources */,
+				1D4CE55A2B70009C002BC695 /* Frameworks */,
+				1D4CE55B2B70009C002BC695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D4CE55F2B70009C002BC695 /* PBXTargetDependency */,
+			);
+			name = Datta_CalculatorAppUITests;
+			productName = Datta_CalculatorAppUITests;
+			productReference = 1D4CE55D2B70009C002BC695 /* Datta_CalculatorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D4CE5352B70009B002BC695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1D4CE53C2B70009B002BC695 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1D4CE5522B70009C002BC695 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1D4CE53C2B70009B002BC695;
+					};
+					1D4CE55C2B70009C002BC695 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1D4CE53C2B70009B002BC695;
+					};
+				};
+			};
+			buildConfigurationList = 1D4CE5382B70009B002BC695 /* Build configuration list for PBXProject "Datta_CalculatorApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D4CE5342B70009B002BC695;
+			productRefGroup = 1D4CE53E2B70009B002BC695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D4CE53C2B70009B002BC695 /* Datta_CalculatorApp */,
+				1D4CE5522B70009C002BC695 /* Datta_CalculatorAppTests */,
+				1D4CE55C2B70009C002BC695 /* Datta_CalculatorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D4CE53B2B70009B002BC695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4CE54D2B70009C002BC695 /* LaunchScreen.storyboard in Resources */,
+				1D4CE54A2B70009C002BC695 /* Assets.xcassets in Resources */,
+				1D4CE5482B70009B002BC695 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D4CE5512B70009C002BC695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D4CE55B2B70009C002BC695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D4CE5392B70009B002BC695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4CE5452B70009B002BC695 /* ViewController.swift in Sources */,
+				1D4CE5412B70009B002BC695 /* AppDelegate.swift in Sources */,
+				1D4CE5432B70009B002BC695 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D4CE54F2B70009C002BC695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4CE5582B70009C002BC695 /* Datta_CalculatorAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D4CE5592B70009C002BC695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4CE5622B70009C002BC695 /* Datta_CalculatorAppUITests.swift in Sources */,
+				1D4CE5642B70009C002BC695 /* Datta_CalculatorAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D4CE5552B70009C002BC695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D4CE53C2B70009B002BC695 /* Datta_CalculatorApp */;
+			targetProxy = 1D4CE5542B70009C002BC695 /* PBXContainerItemProxy */;
+		};
+		1D4CE55F2B70009C002BC695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D4CE53C2B70009B002BC695 /* Datta_CalculatorApp */;
+			targetProxy = 1D4CE55E2B70009C002BC695 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D4CE5462B70009B002BC695 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D4CE5472B70009B002BC695 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D4CE54B2B70009C002BC695 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D4CE54C2B70009C002BC695 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D4CE5652B70009C002BC695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D4CE5662B70009C002BC695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D4CE5682B70009C002BC695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Datta_CalculatorApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Datta_CalculatorApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Datta-CalculatorApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D4CE5692B70009C002BC695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Datta_CalculatorApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Datta_CalculatorApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Datta-CalculatorApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D4CE56B2B70009C002BC695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Datta-CalculatorAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Datta_CalculatorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Datta_CalculatorApp";
+			};
+			name = Debug;
+		};
+		1D4CE56C2B70009C002BC695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Datta-CalculatorAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Datta_CalculatorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Datta_CalculatorApp";
+			};
+			name = Release;
+		};
+		1D4CE56E2B70009C002BC695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Datta-CalculatorAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Datta_CalculatorApp;
+			};
+			name = Debug;
+		};
+		1D4CE56F2B70009C002BC695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Datta-CalculatorAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Datta_CalculatorApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D4CE5382B70009B002BC695 /* Build configuration list for PBXProject "Datta_CalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D4CE5652B70009C002BC695 /* Debug */,
+				1D4CE5662B70009C002BC695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D4CE5672B70009C002BC695 /* Build configuration list for PBXNativeTarget "Datta_CalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D4CE5682B70009C002BC695 /* Debug */,
+				1D4CE5692B70009C002BC695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D4CE56A2B70009C002BC695 /* Build configuration list for PBXNativeTarget "Datta_CalculatorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D4CE56B2B70009C002BC695 /* Debug */,
+				1D4CE56C2B70009C002BC695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D4CE56D2B70009C002BC695 /* Build configuration list for PBXNativeTarget "Datta_CalculatorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D4CE56E2B70009C002BC695 /* Debug */,
+				1D4CE56F2B70009C002BC695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D4CE5352B70009B002BC695 /* Project object */;
+}
