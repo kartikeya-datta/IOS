@@ -132,13 +132,34 @@ class ViewController: UIViewController {
                         return
                     }
                 case "%":
-                    result = num1.truncatingRemainder(dividingBy: num2)
+                    if num2 != 0 {
+                        result = num1.truncatingRemainder(dividingBy: num2)
+                        result = (result * 10).rounded() / 10
+                        print(result)
+
+                    } else {
+                        result = 0.0
+                    }
                 default:
                     break
                 }
-                let conv = Int(result)
-                print(conv)
-                resultOutlet.text = "\((result==Double(conv)) ? String(conv) : String(result))"
+               // let conv = Int(result)
+               // resultOutlet.text = "\((result==Double(conv)) ? String(conv) :  ()String(result))"
+                var decimalPlaces = 1
+                if result.truncatingRemainder(dividingBy: 1) == 0 {
+                    decimalPlaces = 0
+                } else if result.truncatingRemainder(dividingBy: 1) > 0 {
+                    let decimalCount = String(result).components(separatedBy: ".").last?.count ?? 0
+                    if decimalCount > 5 {
+                        decimalPlaces = 5
+                    }
+                    else{
+                        decimalPlaces = decimalCount
+                    }
+                }
+                let formattedResult = String(format: "%.\(decimalPlaces)f", result)
+                print(formattedResult)
+                resultOutlet.text = formattedResult
             }
         }
     }
