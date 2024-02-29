@@ -22,15 +22,26 @@ class ViewController: UIViewController {
     
     
     @IBAction func BtnClicked(_ sender: Any) {
-        var temperature = Int(inputOL.text!)
+        let temperature = Int(inputOL.text!)
         
         if(temperature! > 60){
             outputOL.text = " it is hot!🥵"
-            imageOL.image = UIImage(named: "hot.jpg")
+            
+            UIView.animate(withDuration: 1, delay: 0.5, animations: {
+                self.imageOL.alpha = 0
+                self.imageOL.alpha = 1
+                self.imageOL.image = UIImage(named: "hot.jpg")
+            })
         }
         else{
             outputOL.text = "it is cold!🥶"
-            imageOL.image = UIImage(named: "cold.jpg")
+            // imageOL.image = UIImage(named: "cold.jpg")
+            
+            UIView.animate(withDuration: 1, delay: 0.5, animations: {
+                self.imageOL.alpha = 0
+                self.imageOL.alpha = 1
+                self.imageOL.image = UIImage(named: "cold.jpg")
+            })
         }
     }
 }
